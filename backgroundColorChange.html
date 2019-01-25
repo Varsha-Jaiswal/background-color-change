@@ -4,14 +4,15 @@
 	<title>Change Background Color</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="css/bootstrap.min.css">
-  	<script src="js/bootstrap.min.js"></script>
 </head>
+
 <body id="body" class="jumbotron text-center">
 	<div>
 		<button id="red" class="btn btn-danger" value="red" onclick="changeBackground(this)">"RED"</button>
 		<button id="green" class="btn btn-success" value="green" onclick="changeBackground(this)">"GREEN"</button>
 		<button id="blue" class="btn btn-primary" value="blue" onclick="changeBackground(this)">"BLUE"</button>
 	</div>
+  	<script src="js/bootstrap.min.js"></script>
 	<script>
 		function changeBackground(colour){
 			var body = document.getElementById('body');
